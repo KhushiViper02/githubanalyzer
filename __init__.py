@@ -13,6 +13,9 @@ st.markdown('''
 <h1> Github PROFILE README Generator </h1>
 
 
+''',unsafe_allow_html=True)
+
+
 
 
 sbar = st.sidebar
