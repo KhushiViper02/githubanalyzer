@@ -12,15 +12,12 @@ st.markdown('''
 
 <h1> Github PROFILE README Generator </h1>
 
-[![GitHub stars](https://img.shields.io/github/stars/rahulbanerjee26/githubProfileReadmeGenerator.svg?style=social&label=Star&maxAge=2592000)](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/stargazers/)
 
-''',unsafe_allow_html=True)
 
 
 sbar = st.sidebar
-sbar.markdown('''<a href="https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/"> Tutorial 📖 </a> <br>
-<a href="https://twitter.com/rahulbanerjee99" > Twitter 🐦</a> <br>
-<a href = "https://www.linkedin.com/in/rahulbanerjee2699/"> LinkedIn 👨‍💻</a>''' , unsafe_allow_html=True)
+sbar.markdown('''<a href="https://github.com/KhushiViper02"> Tutorial 📖 </a> <br>
+<a href = "https://www.linkedin.com/in/khushi-singh-843b50315/"> LinkedIn 👨‍💻</a>''' , unsafe_allow_html=True)
 page = sbar.radio("Select Page",options=['Home','Generate README'])
 
 
@@ -31,7 +28,7 @@ if page == 'Home':
     - Fill in the text boxes
     - Once you are done, select the 'Generate README' Button
     - If you are happy with the Readme, you can download it
-    - For more details, check out this [Tutorial](https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/)
+    -)
     ''')
 if page == 'Generate README':
     st.subheader("Fill in the text boxes and click on GENERATE README")
