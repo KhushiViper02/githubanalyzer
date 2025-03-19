@@ -16,7 +16,7 @@ st.markdown('''
 
 
 sbar = st.sidebar
-sbar.markdown('''<a href="https://github.com/KhushiViper02"> Tutorial 📖 </a> <br>
+sbar.markdown('''<a href="https://github.com/KhushiViper02"> Tutorial </a> <br>
 <a href = "https://www.linkedin.com/in/khushi-singh-843b50315/"> LinkedIn 👨‍💻</a>''' , unsafe_allow_html=True)
 page = sbar.radio("Select Page",options=['Home','Generate README'])
 
